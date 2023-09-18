@@ -19,7 +19,7 @@ variable "doks_k8s_version" {
 
 variable "doks_cluster_region" {
   type        = string
-  default     = "ams3"
+  default     = "syd1"
   description = "DOKS region name"
 }
 
@@ -45,7 +45,7 @@ variable "doks_additional_node_pools" {
 # ===================== DOCR CONFIG VARS =======================
 variable "container_registry" {
   type    = string
-  default = "bootstrapper-cr"
+  default = "lh-cr"
 }
 
 variable "enable_container_registry" {
